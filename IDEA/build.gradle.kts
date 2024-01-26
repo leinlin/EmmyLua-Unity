@@ -58,7 +58,7 @@ tasks {
     }
 
     buildPlugin {
-        dependsOn("installLs")
+        //dependsOn("installLs")
     }
 
     withType<org.jetbrains.intellij.tasks.PrepareSandboxTask> {
